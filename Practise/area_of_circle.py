@@ -1,6 +1,5 @@
-height = int(input("Enter height of rectangle = "))
-weidth = int(input("Enter weidth of rectangle = "))
+radius = int(input("Enter radius of circle = "))
 
-area = height * weidth
+area = 3.14 * radius**2
 
-print(f"Area of Reactangle is {area}")
+print(f"Area of Circle is {area}")
