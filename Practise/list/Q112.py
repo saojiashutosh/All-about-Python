@@ -9,8 +9,8 @@ for i in range(0, num):
 
 print("Original list:", my_list)
 
-another_list = []
+result = []
 for i in range(num - 1, -1, -1):
-    another_list.append(my_list[i])
+    result.append(my_list[i])
 
-print("Reversed list:", another_list)
+print("Reversed list:", result)
