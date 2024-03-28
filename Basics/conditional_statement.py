@@ -1,15 +1,15 @@
 a = 10
-b = 20 
+b = 20
 
-if(a>b) :
+if a >= b:
     print("a is greater")
-else  :
+else:
     print("b is greater")
-    
-    
-if(a>b) :
+
+
+if a > b:
     print("a is greater")
-elif(b>a) :
+elif b > a:
     print("b is greater")
-else  :
+else:
     print("b is greater")

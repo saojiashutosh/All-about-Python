@@ -21,22 +21,12 @@ For each test case, output YES if average of A and B is strictly greater than C,
 
 You may print each character of the string in uppercase or lowercase (for example, the strings YeS, yEs, yes and YES will all be treated as identical). """
 
-# T = int(input())
-# for i in range(0, T):
-#     a = int(input())
-#     b = int(input())
-#     c = int(input())
-#     if (a + b) / 2 > c:
-#         print("YES")
-#     else:
-#         print("NO")
-
 T = int(input())
-
 for i in range(0, T):
-    A, B = map(int, input().split())
-    if A >= 6:
-        x = round(A // 6)
-        print(B * x)
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    if (a + b) / 2 > c:
+        print("YES")
     else:
-        print(B)
+        print("NO")
